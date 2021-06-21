@@ -1,0 +1,164 @@
+
+	.body{
+  		height: 700px;
+  		width: 50%;
+  		
+  		float: left;
+  		margin: 0px;
+  	}
+  	.f{
+  		background-image: url('sun.jpg');
+  	}
+  	.s
+  	{
+  		background-image: url('4dark.jpg');
+
+  	}
+  	.r{
+  		border-radius: 50%;
+  		width: 200px;
+  		height: 200px;
+  		float: left;
+  		margin: 180px 0px 0px 220px;
+  		
+  	}
+  	.head{
+  		justify-content: center;
+  		display: flex;
+  		color: white;
+  		background-image: url('sun.jpg');
+  	}
+  	.head1{
+  		justify-content: center;
+  		display: flex;
+  		color: white;
+  		background-image: url('4dark.jpg');
+  	}
+  	.hh::before{
+  		content:"I am Sun";
+  		animation:ani infinite 3s;
+  	}
+  	@keyframes ani {
+  		0%{content:"Hello";}
+  		50%{content: "I am Sun";}
+  		75%{content: "I am Happy";}
+  		100%{content: "Becuse I am in the Day";}
+  	}
+.hh1::before{
+  		content:"I am Moon";
+  		animation:animate infinite 3s;
+  	}
+  	@keyframes animate {
+  		0%{content:"Hello";}
+  		50%{content: "I am Moon";}
+  		75%{content: "I am Happy";}
+  		100%{content: "Becuse I am in the Night";}
+  	}
+  .re{
+  	border-radius: 20%;
+  		width: 300px;
+  		height: 50px;
+  		float: left;
+  		margin: 30px 0px 0px 180px;
+  		
+  }
+
+  .re1{
+  	background-image: url('sun.jpg');
+  }
+  .re2{
+  		background-image: url('4dark.jpg');
+  }
+  	.su{
+  		background-color: yellow;
+  	}
+  	.m{
+  		background-color: white;
+  	}
+  	.ee{
+  		border-radius: 50%;
+  		width: 20px;
+  		height: 20px;
+  		float: left;
+  		background-color: white;
+  		float: left;
+  		
+  	}
+  	.ese{
+  		margin: 11px 0px 0px 13px;
+  	}
+  	.e{
+  		border-radius: 50%;
+  		width: 50px;
+  		height: 50px;
+  		float: left;
+  		background-color: black;
+  		float: left;
+  	}
+  	.es1{
+  		margin: 40px 0px 0px 20px;
+  	}
+  	.es2{
+  		margin: 40px 0px 0px 60px;
+  	}
+
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+  
+        }
+  
+        /* Using the border-radius property 
+           to draw the semi-circle*/
+        .smile {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            height: 50px;
+            width: 100px;
+            border-radius: 0 0 250px 250px;
+            background-color: red;
+           margin: 150px 0px 0px 100px;
+           animation: sml infinite 3s;
+  			
+  	
+        }
+
+   		@keyframes sml {
+  0%   {background-color: red;}
+  10%  {background-color: black;}
+  20%  {background-color: red;}
+  30% {background-color: black;}
+  40%   {background-color: red;}
+  50%  {background-color: black;}
+  60%  {background-color: red;}
+  70% {background-color: black;}
+  80%   {background-color: red;}
+  90%  {background-color: black;}
+  100%  {background-color: red;}
+
+}
+.h{
+
+}
+  .box {
+		
+       
+        position: relative;
+        /* Chrome, Safari, Opera */
+        -webkit-animation: repeatit 2s linear 0s infinite alternate;
+        /* Standard syntax */
+        animation: repeatit 2s linear 0s infinite alternate;
+    }
+     
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes repeatit {
+        from {left: 0;}
+        to {left: 20%;}
+    }
+     
+    /* Standard syntax */
+    @keyframes repeatit {
+        from {left: 0;right: 0}
+        to {left: 20%;
+    }
